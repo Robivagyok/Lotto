@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor
-class LottoTypeProviderImpl implements LottoTypeProvider, LottoTypeConsumer {
+class LottoTypeConsumerAndProviderImpl implements LottoTypeProvider, LottoTypeConsumer {
     private @Getter @Setter LottoType lottoType;
 
 
